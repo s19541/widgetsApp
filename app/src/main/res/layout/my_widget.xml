@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.WidgetsApp.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Theme.WidgetsApp.AppWidgetContainer">
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        style="@style/Widget.WidgetsApp.AppWidget.InnerView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/appwidget_text"
+        android:text="My widget"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/buttonPage"
+        android:layout_width="300dp"
+        android:layout_height="37dp"
+        android:text="Go to page" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="167dp"
+        android:src="@drawable/image1" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonImage1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#0C0C0C"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/buttonImage2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#0C0C0C"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/buttonImage3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#0C0C0C"
+            android:text="3"
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
