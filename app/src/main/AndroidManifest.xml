@@ -20,6 +20,10 @@
                 <action android:name="com.example.widgetsApplication.Image1" />
                 <action android:name="com.example.widgetsApplication.Image2" />
                 <action android:name="com.example.widgetsApplication.Image3" />
+                <action android:name="com.example.widgetsApplication.MusicStop" />
+                <action android:name="com.example.widgetsApplication.MusicPause" />
+                <action android:name="com.example.widgetsApplication.MusicPlay" />
+                <action android:name="com.example.widgetsApplication.MusicNext" />
             </intent-filter>
 
             <meta-data
